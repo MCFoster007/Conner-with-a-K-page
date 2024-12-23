@@ -1,0 +1,230 @@
+:root {
+    font-family: Comic sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+  /* background page for home and font  */
+    color-scheme: light dark;
+    color: rgba(6, 40, 153, 0.87);
+    background-color: #18dde8;
+   
+  
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  /* the navbar coloring */
+  a {
+    font-weight: 500;
+    color: #ed16b7;
+    text-decoration: inherit;
+  }
+  a:hover {
+    color: green;
+    text-decoration: green wavy underline;
+  }
+  
+  body {
+    margin: 0;
+    display: float;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+    background-color: #18dde8;
+  }
+  
+  h1 {
+    font-size: 2.2em;
+    line-height: 1.1;
+  }
+  h2 {
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 1.1;
+    background-color: greenyellow;
+    width: 200px;
+    padding: 20px;
+    border: 10px solid palevioletred;
+  }
+  p {
+    font-size: 1em;
+    line-height: 1.1;
+    background-color: light rgb(108, 106, 106);
+    width: 600px;
+    padding:80px;
+    border: 20px solid #f09809;
+    flex-direction: row;
+   
+    
+  }
+  img.align-left {
+    float: left;
+    margin-right: 10px;
+  }
+  
+  img.align-right {
+    float: right;
+    margin-left: 5px;
+  }
+  img.medium{
+    width: 100px;
+    height: 100px;
+  }
+  .footer{
+  font-style: italic;
+  place-items: center;
+  }
+  
+  /* resume styling */
+:root {
+    font-family: Comic sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+  /* background page for homea and font  */
+    color-scheme: light dark;
+    color: rgba(20, 69, 231, 0.87);
+    background-color: #18dde8;
+  
+
+  
+  /* the navbar coloring */
+  a {
+    font-weight: 500;
+    color: #ed16b7;
+    text-decoration: inherit;
+  }
+  a:hover {
+    color: green;
+    text-decoration: green wavy underline;
+  }
+  
+  body {
+    margin: 0;
+    display: float;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+  }
+  
+  h1 {
+    font-size: 2.2em;
+    line-height: 1.1;
+  }
+  /* flip card */
+  /* resume page */
+    .container {
+      width: 100%;
+      height: 70vh;
+     background: rgb(232, 222, 24);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    }
+    /* the background of the page and title plus the "check out" */
+    body {
+      background-color: #18dde8(18, 216, 230);
+      color: #0e36e9(8, 8, 8);
+      color: #2a0cc1;
+     
+    .card{
+      width:380px;
+      perspective: 1000px;
+      cursor: pointer;
+    }
+    .card-inner{
+      position: relative;
+      width:100%;
+      text-align: left;
+      transform-style: preserve-3d;
+      transition: transform 1s;
+    }
+    .front-face{
+      backface-visibility: hidden;
+    }
+    .front-face img{
+      width: 100%;
+      border-radius: 10px;
+    }
+    .back-face {
+      backface-visibility: hidden;
+      background: rgb(16, 73, 218);
+      color:#eee714;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      top:0;
+      left: 0;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      transform: rotateY(180deg)
+    }
+    .card:hover .card-inner{
+      transform: rotateY(180deg);
+    }
+  
+  /* slider pics */
+  .slider{
+      position: relative;
+      width: 100%;
+      margin: auto;
+      overflow: hidden;
+  }
+    .slider img{
+      width: 100%;
+      display: none;
+    }
+    img.displaySlide{
+      display: block;
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+  
+    @keyframes fade{
+      from{opacity: .5}
+      to {opacity: 1}
+    } 
+
+
+/* portfolio sytling */
+/* on portfolio css */
+
+/* contact page style */
+:root {
+    font-family: Comic sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+  /* background page for homea and font  */
+    color-scheme: light dark;
+    color: rgba(20, 69, 231, 0.87);
+    background-color: #18dde8;
+  
+
+  } */
+  
+  /* the navbar coloring */
+  a {
+    font-weight: 500;
+    color: #ed16b7;
+    text-decoration: inherit;
+  }
+  a:hover {
+    color: green;
+    text-decoration: green wavy underline;
+  }
+  
+  body {
+    margin: 0;
+    display: float;
+    place-items: center;
+    min-width: 320px;
+    min-height: 100vh;
+  }
+  
+  h1 {
+    font-size: 2.2em;
+    line-height: 1.1;
+  }
+  
